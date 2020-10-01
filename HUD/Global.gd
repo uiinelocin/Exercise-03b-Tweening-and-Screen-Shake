@@ -4,7 +4,7 @@ onready var HUD = get_node("/root/Game/HUD")
 onready var Camera1 = get_node("/root/Game/Camera")
 onready var Camera2 = get_node("/root/Game/HUD/Camera")
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("menu"):	
 		if HUD.visible:
 			HUD.hide()
